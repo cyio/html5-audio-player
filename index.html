@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>HTML5 Audio Player(Weixin Style)</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="text/javascript" src="./script.js"></script>
+</head>
+
+<body>
+  <audio preload="true">
+    <!-- <source src="./audio/tennis.mp3"> -->
+    <source src="http://fdfs.xmcdn.com/group9/M07/95/31/wKgDYlY7_9DzDKIwAAcTVNSve_k086.mp3">
+    <!-- <source src="http://m2.music.126.net/YZGWHPPQ3U5dkIUzBH74hg==/2028598953256302.mp3"> -->
+  </audio>
+  <!-- player style -->
+  <div class="audio_area" id="audioplayer">
+    <div class="audio_wrp" id="music" preload="true">
+      <div class="audio_play_area play " id="pButton ">
+        <i class="icon_audio_default "></i>
+        <i class="icon_audio_playing "></i>
+      </div>
+      <div class="audio_length tips_global ">00:00</div>
+      <div class="audio_info_area ">
+        <strong class="audio_title ">音频标题</strong>
+        <div class="audio_source tips_global ">音频来源</div>
+      </div>
+      <div id="timeline" class="progress_bar">
+        <div id="playhead"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

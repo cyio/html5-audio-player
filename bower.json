@@ -1,0 +1,18 @@
+{
+  "name": "html5player",
+  "version": "0.0.0",
+  "authors": [
+    "cyio <icaner@qq.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jPlayer": "jplayer#~2.9.2"
+  }
+}
